@@ -1,0 +1,19 @@
+
+.laf{
+    color: #5A2870;
+    font-size: 40px;
+    font-weight:800;
+    text-align: center;
+} 
+#exampleModal{
+    color: #5A2870;
+    font-size: 20px;
+    font-weight:400;
+}
+.dashboard{    
+    height: 65vh;
+}
+.row-content{
+    display: table-row;
+    height: 100%;
+}

@@ -1,0 +1,84 @@
+.dashboard{
+    background-color: #A58CC3;
+}
+.laf{
+    color: #5A2870;
+    font-size: 45px;
+    font-weight:750;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+ 
+
+.formdetails{
+    background-color: lightgray;
+    color: black;
+    font-size: 20px;
+    font-weight:600;
+    font-family: "roboto", sans-serif;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.form-label{
+    margin-top: 8px;
+}
+.incomedetails{
+    background-color: lightgray;
+    color: black;
+    font-size: 20px;
+    font-weight:600;
+    font-family: "roboto", sans-serif;
+    padding-bottom: 5px;    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.propertydetails{
+    background-color: lightgray;
+    color: black;;
+    font-size: 20px;
+    font-weight:600;
+    font-family: "roboto", sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+  
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }

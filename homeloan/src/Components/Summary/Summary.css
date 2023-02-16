@@ -1,0 +1,29 @@
+.summary-main{
+    height: 70vh;
+    font-family: "roboto", sans-serif;
+    background-color: rgb(255, 234, 230);  
+}
+.heading{
+    font-size: 30px;
+    font-weight: 550;    
+    text-align: left;
+    color: black;
+    text-decoration: underline;
+    padding: 5px;
+    
+}
+.summary{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 40px;
+    color: #8B3FB2;
+    font-weight: 700;
+    text-decoration: underline;
+    
+    
+}
+.col{
+    padding: 10px;
+    
+
+}
